@@ -45,7 +45,7 @@ kotlin协程的实现就是 CPS（Continuation Passing Style ），协程是解�
 
 协程是我们在 Android 上进行异步编程的推荐解决方案。值得关注的特点包括：
 
-![5fcf3b3502d1853d427d9147b32aa9e9](Kotlin 协程.resources/E42A2D05-DDE2-4D1A-A744-D5B338EDC495.png)
+![5fcf3b3502d1853d427d9147b32aa9e9](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/E42A2D05-DDE2-4D1A-A744-D5B338EDC495.png)
 
 
 ## 网络请求
@@ -133,7 +133,7 @@ fun useCoroutine(view: View) {
 
 
 你还在用RxJava吗？
-![b3f297e2fbaf73e525f6043b5995cac5](Kotlin 协程.resources/F510249A-C567-4A1C-9676-D0389B212822.png)
+![b3f297e2fbaf73e525f6043b5995cac5](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/F510249A-C567-4A1C-9676-D0389B212822.png)
 
 ## 回调转挂起函数，RxJava改为协程
 
@@ -337,11 +337,11 @@ RxJava和Coroutine的无缝切换
 [kotlin-coroutines-rx](https://github.com/Kotlin/kotlinx.coroutines/tree/master/reactive) 
 
 Coroutine 转换为 Rx2
-![0885d1ea2d18fae5fb382f50a3ad6070](Kotlin 协程.resources/EA5CCEBE-C862-44CE-952F-90231EC74DC6.png)
+![0885d1ea2d18fae5fb382f50a3ad6070](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/EA5CCEBE-C862-44CE-952F-90231EC74DC6.png)
 
 Rx2 转换为 Coroutine
 
-![7838e9465940816deb130cd762d6e011](Kotlin 协程.resources/D74CB3D7-AFBD-4A34-AFBD-8005DC28561C.png)
+![7838e9465940816deb130cd762d6e011](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/D74CB3D7-AFBD-4A34-AFBD-8005DC28561C.png)
 
 
 ```kotlin
@@ -357,7 +357,7 @@ rxSingle(coroutineContext){suspendApi.getUser("google")}
 
 ## mvvm 中使用
 
-![7f51fd305c90bf120b54c3b7afff5ec5](Kotlin 协程.resources/04B8608F-A2A3-426D-96F3-F78B6DC2C841.png)
+![7f51fd305c90bf120b54c3b7afff5ec5](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/04B8608F-A2A3-426D-96F3-F78B6DC2C841.png)
 
 Database.kt
 ```kotlin
@@ -437,7 +437,7 @@ Flow 库是在 Kotlin Coroutines 1.3.2 发布之后新增的库，也叫做异�
 
 [https://developer.android.com/kotlin/flow](https://developer.android.com/kotlin/flow)
 
-![8dec55dc9b8a2eb168ae846d996b1035](Kotlin 协程.resources/FFC78526-3D40-4614-8980-81E359557310.png)
+![8dec55dc9b8a2eb168ae846d996b1035](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/FFC78526-3D40-4614-8980-81E359557310.png)
 
 ### 线程切换
 通过flowOn来切换上游的协程
@@ -583,7 +583,7 @@ fun foo(continuation: Continuation<Unit>):Any?{
 
 ```
 
-![a2a349378bc35c20b8c7ed34ad8311ad](Kotlin 协程.resources/D8856F83-82C4-4DBC-A98E-9C7DF50749E1.png)
+![a2a349378bc35c20b8c7ed34ad8311ad](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources//D8856F83-82C4-4DBC-A98E-9C7DF50749E1.png)
 
 
 
@@ -751,7 +751,7 @@ public class CoutinuationImpl implements Continuation<Object> {
 ```
 
 
-![67b630ba6b773d119fbe2be7c517c404](Kotlin 协程.resources/3C1844A1-D173-40AB-90F8-59DF355AD9AB.png)
+![67b630ba6b773d119fbe2be7c517c404](https://github.com/vivid-cn/vivid-blog/blob/main/Kotlin%20%E5%8D%8F%E7%A8%8B.resources/3C1844A1-D173-40AB-90F8-59DF355AD9AB.png)
 
 # 参考文献
 [Coroutines guide](https://kotlinlang.org/docs/coroutines-guide.html)
